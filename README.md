@@ -13,9 +13,9 @@ show databases;
 use db_name;`
 
 # Update home in wp_options
-  update wp_options
-    -> set option_value='<ROOT_DOMAIN>'
-    -> where option_name='home';
+    update wp_options
+      -> set option_value='<ROOT_DOMAIN>'
+      -> where option_name='home';
 
 # Create dev folder, scss folder, js folder
 `mkdir dev
