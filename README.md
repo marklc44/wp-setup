@@ -13,9 +13,9 @@ show databases;
 use db_name;`
 
 # Update home in wp_options
-`update wp_options
+  update wp_options
     -> set option_value='<ROOT_DOMAIN>'
-    -> where option_name='home';`
+    -> where option_name='home';
 
 # Create dev folder, scss folder, js folder
 `mkdir dev
@@ -26,8 +26,8 @@ mkdir dev/js`
 `npm install`
 
 # Create Child Theme and Plugins
-`rsync to external themes dir
-rsync to external plugins dir`
+  - rsync to external themes dir
+  - rsync to external plugins dir`
 
 # Free Plugins List
   - advanced-custom-fields-pro
