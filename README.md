@@ -30,12 +30,12 @@ mkdir dev/js`
 rsync to external plugins dir`
 
 # Free Plugins List
-`advanced-custom-fields-pro
-cms-tree-page-view
-leadin
-ninja-forms
-wordpress-seo
-wp-native-php-sessions`
+  -advanced-custom-fields-pro
+  -cms-tree-page-view
+  -leadin
+  -ninja-forms
+  -wordpress-seo
+  -wp-native-php-sessions
 
 
 
