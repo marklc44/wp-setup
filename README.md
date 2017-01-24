@@ -5,6 +5,7 @@
 
 # Enter basic mysql command prompt
 Set in .bash_profile
+
     start_local_mysql
     ='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 
