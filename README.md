@@ -1,3 +1,18 @@
+# Setup a Basic WordPress Local Dev
+This is a basic local dev site setup that I'm refining as I go.
+
+  1. `composer install`
+  2. move `index.php` from `wp/` to the root and change the `wp-blog-header.php` path
+  3. move wp-content from `wp/` to the root and update `wp-config.php` with the defintions below
+  4. create the db (command line instructions below)
+  5. install WordPress with the GUI steps
+  6. change the home url value from the wp directory to root (command line instructions below)
+  7. npm install node_modules for gulp
+  8. create the `dev/` directory to your liking for editing theme css and js
+  9. add your theme and child theme
+  10. add plugins to composer.json as needed and run `composer update`
+  11. `git init`, etc.
+
 # Insert into wp-config.php on line 88
 
     define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
