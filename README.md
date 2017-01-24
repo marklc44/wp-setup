@@ -4,7 +4,7 @@
     define('WP_CONTENT_URL', 'http://<HOSTNAME>/<ROOT_DIR>/wp-content');
 
 # Enter basic mysql command prompt
-Set in .bash_profile
+Set command prompt alias in .bash_profile. Create and move to the db to edit.
 
     start_local_mysql
     ='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
