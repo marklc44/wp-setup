@@ -16,6 +16,6 @@ node_modules
 wp
 vendor
 wp-content
-# !plugins/<specific-plugins
-# !themes/<specific-themes
+# !plugins/<specific-plugins>
+# !themes/<specific-themes>
 wp-config.php
